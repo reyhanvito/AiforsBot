@@ -1,0 +1,272 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo",
+        "Cek",
+        "Hai",
+        "Halo",
+        "Hei",
+        "Hi",
+        "Hy",
+        "p",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat sore",
+        "Selamat malam",
+        "Pagi",
+        "Siang",
+        "Sore",
+        "Malam",
+        "Good morning",
+        "Good afternoon",
+        "Good night",
+        "Permisi",
+        "Assalamualaikum",
+        "Shalom",
+        "Bro",
+        "Sis",
+        "Halo chatbot",
+        "Hai chatbot",
+        "Hai AIFors Bot",
+        "Hallo AIFors Bot",
+        "Mau tanya dong"
+      ],
+      "responses": [
+        "Halo! AIFors Bot disini, senang bertemu dengan anda! Mau tau informasi tentang alforstartups, kan?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Oke, Terima kasih",
+        "Mantap Terima kasih",
+        "Terima kasih yaaa",
+        "Sangat membantu Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Semoga sukses selalu ya diberikan yang terbaik sampai akhir program"
+      ]
+    },
+    {
+      "tag": "penjelasan_AIForStartUps",
+      "patterns": [
+        "Apa itu AIForStartUps?",
+        "AIForStartUps",
+        "Apa sih AIForStartUps?",
+        "Alforstartups",
+        "Tentang alforstartups",
+        "Apa yaa itu alforstartups",
+        "Bingung dengan aiforstartups nih",
+        "Apa saja isi dari alforstartups ya kak?",
+        "Lihat detail tentang alforstartups dong kak?",
+        "Sharing berita alforstartups dong",
+        "Alforstartups di power academy bahas tentang apa aja ya kak?",
+        "Jelaskan AIForStartUps?"
+      ],
+      "responses": [
+        "AI 4 StartUps  adalah salah satu program Studi Independen yang disediakan oleh Kampus Merdeka yang berfokus pada pelatihan Artificial Intelligence (AI) secara online yang diperuntukkan bagi mahasiswa dengan tujuan untuk memperkenalkan teknologi AI sekaligus juga untuk memberikan kesempatan kepada mereka untuk dapat mengaplikasikan perangkat AI, sehingga dapat menghasilkan suatu produk yang memiliki dampak sosial bagi komunitas mereka dan masyarakat umum dengan menitikberatkan kepada komponen utama AI seperti Data Science, Natural Language Processing, and Computer Vision."
+      ]
+    },
+    {
+      "tag": "penyelenggara_AIForStartUps",
+      "patterns": [
+        "Penyelenggara",
+        "Siapa penyelenggara program ini",
+        "Mitra AIForStartUps",
+        "Penyelenggara AIForStartUps",
+        ""
+      ],
+      "responses": [
+        "Program ini diselenggarakan dalam kolaborasi antara PT Mitra Semeru Indonesia (Power Academy) selaku Authorized Training Partner, dengan PT Orbit Ventura Indonesia (disebut juga sebagai Orbit Future Academy) yang  memiliki pengalaman telah memberikan pelatihan dalam bidang AI kepada lebih dari 7000 peserta."
+      ]
+    },
+    {
+      "tag": "Informasi_coach",
+      "patterns": [
+        "Siapa saja coach AIForStartUps",
+        "Info coach domain AIForStartUps",
+        "Coach",
+        "Coach Domain",
+        "Informasi coach AIForStartUps"
+      ],
+      "responses": [
+        "Didalam AIForStartUps dibagi menjadi beberapa coach sesuai Domain masing masing, <br> 1. Coach Domain Natural Language Processing <br> 2. Coach Domain Technical <br> 3. Coach Domain Data Science <br> 4. Coach Domain Computer Vision."
+      ]
+    },
+    {
+      "tag": "Informasi_coach_NLP",
+      "patterns": [
+        "Coach NLP",
+        "Coach Natural Language Processing",
+        "Info Coach NLP",
+        "Info Coach Natural Language Processing",
+        "Coach Domain NLP",
+        "Coach Domain Natural Language Processing",
+        "Siapa Coach Domain NLP",
+        "Siapa Coach Domain Natural Language Processing"
+      ],
+      "responses": [
+        "Coach Ayu Mawadda Warohma, S.T. dan Coach Fendy Hendriyanto, S.Kom"
+      ]
+    },
+    {
+      "tag": "Informasi_coach_DS",
+      "patterns": [
+        "Coach DS",
+        "Info Coach DS",
+        "Coach Domain DS",
+        "Siapa Coach Domain DS",
+        "Coach Data Science",
+        "Info Coach Data Science",
+        "Coach Domain Data Science",
+        "Siapa Coach Domain Data Science"
+      ],
+      "responses": [
+        "Coach Hasna Haifa Zahrah, S.Kom dan Coach Haidar Rahman S.T., M.S"
+      ]
+    },
+    {
+      "tag": "Informasi_coach_CV",
+      "patterns": [
+        "Coach CV",
+        "Info Coach CV",
+        "Coach Domain CV",
+        "Siapa Coach Domain CV",
+        "Coach Computer Vision",
+        "Info Coach Computer Vision",
+        "Coach Domain Computer Vision",
+        "Siapa Coach Domain Computer Vision"
+      ],
+      "responses": [
+        "Coach Fauzan Firdaus, S.Kom., M.T dan Coach Yesaya Nova Ananda, S.Mat"
+      ]
+    },
+    {
+      "tag": "Informasi_coach_Technical",
+      "patterns": [
+        "Coach Technical",
+        "Info Coach Technical",
+        "Coach Domain Technical",
+        "Siapa Coach Domain Technical"
+      ],
+      "responses": [
+        "Coach Afrizal Meka Mulyana, S.Kom. dan Coach Andhini Rahma Santoso, S.Kom"
+      ]
+    },
+    {
+      "tag": "Informasi_Kordinator_Coach",
+      "patterns": [
+        "Ada masalah tentang akademik",
+        "Siapa Kordinator Coach?",
+        "Kordinator Coach?",
+        "Ada masalah dengan kampus"
+      ],
+      "responses": [
+        "Silahkan Hubungi Coach Muhammad Nurrian sebagai Staff Tim Sekretariat Power Academy dan Coach Wahyuni Rahmawati sebagai Koordinator Akademik AI for Startup"
+      ]
+    },
+    {
+      "tag": "info_pulsa",
+      "patterns": [
+        "Kapan kita mendapatkan pulsa?",
+        "Berapa jumlah pulsa yang kita dapatkan?",
+        "Pulsa kapan dikirim?",
+        "Kapan dapat pulsa",
+        "Info pulsa",
+        "Info kouta",
+        "Pulsa",
+        "Kouta",
+        "Pulsa saya sudah habis"
+      ],
+      "responses": [
+        "untuk mengenai pulsa dalam Program AI for StartUps ini diselenggarakan oleh mitra Power Academy yang berkolaborasi dengan Orbit Future Academy. <br >Mitra kolaborasi Orbit Future Academy akan memberikan Pulsa Belajar sebesar Rp250.000 kepada peserta aktif program AI for StartUps. Pulsa Belajar akan diberikan 2 Fase : <br> Fase 1: 31 Oktober 2022 sebesar Rp100.000 <br> Fase 2: 31 Desember 2022 sebesar Rp150.000. <br> Untuk informasinya bisa dilihat disini: <br> https://bit.ly/infopulsaa "
+      ]
+    },
+    {
+      "tag": "informasi_rekaman",
+      "patterns": [
+        "Kalo, gimana cara mengakses rekaman?",
+        "Cara akses rekaman?",
+        "Info rekaman",
+        "Info link rekaman?",
+        "Cara melihat rekaman",
+        "Link rekaman zoom",
+        "Link rekaman Kuliah",
+        "Rekaman zoom",
+        "Rekaman Kuliah",
+        "Cara mendapatkan rekaman?"
+      ],
+      "responses": [
+        "terkait informasi rekaman bisa diakses melalui link berikut ini : <br> bit.ly/rekamanAI4Startups"
+      ]
+    },
+    {
+      "tag": "informasi_terkait_materi",
+      "patterns": [
+        "bagaimana cara mengakses materi?",
+        "cara akses materi?",
+        "info link materi",
+        "link materi",
+        "materi"
+      ],
+      "responses": [
+        "untuk materi bisa diakses di Orbit Guru dengan link berikut https://bit.ly/MateriOrbitGuru "
+      ]
+    },
+    {
+      "tag": "jadwal_posttest",
+      "patterns": [
+        "Jadwal Post Test",
+        "Halo, kapan dilaksanakan Post Test?",
+        "Info dilaksanakan Post Test",
+        "Kapan Post Test berlangsung?",
+        "Apakah Post Test masih lama?",
+        "Info Post Test akan berlangsung"
+      ],
+      "responses": [
+        "Terkait jadwal pelaksanaan <br> Post Test 1 akan dimulai pada 19 September 2022 <br> Post Test 2 dilaksanakan pada 24 Oktober 2022 <br> Pos Test 3 dilaksanakan pada 4 Noember 2022."
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_AIForStartUps",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program AIForStartUps?",
+        "Jadwal AIForStartUps",
+        "Sampai kapan AIForStartUps?",
+        "Kapan AIForStartUps?"
+      ],
+      "responses": [
+        "Program AIForStartUps berlangsung pada 18 Agustus 2022 - 31 Desember 2022 (4 bulan)"
+      ]
+    }
+  ]
+}
