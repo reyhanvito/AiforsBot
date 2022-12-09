@@ -10,4 +10,4 @@ memilih enviroments yang digunakan ctrl+shift+p lalu pilih enviroments yang dibu
 ## step 3 
 untuk menjalankan di flask dengan "python app.py"
 ## step 4 
-masuk ke git lalu "http ngrok 5000"
+untuk deployments menggunakan ngrok masuk ke git lalu "http ngrok 5000"
