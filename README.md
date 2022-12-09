@@ -13,11 +13,11 @@ tensorflow==2.9.1
 scikit-learn==1.1.1
 atau dengan pip install -r requirements.txt
 
-#step3
+# step3
 memilih enviroments yang digunakan ctrl+shift+p lalu pilih enviroments yang dibuat tadi
 
-#step 3 
+# step 3 
 untuk menjalankan di flask dengan python app.py
 
-#step 4 
+# step 4 
 masuk ke git lalu http ngrok 5000
